@@ -25,3 +25,5 @@ App de gestão estoque e vendas de produtos
 ## Author:
 
 * **Joir Neto** - [LinkedIn](https://www.linkedin.com/in/joir-neto/)
+
+![alt text](https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/01telainicial.jpg)
