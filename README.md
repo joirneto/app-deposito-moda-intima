@@ -29,9 +29,14 @@ App de gestão estoque e vendas de produtos
 ## app:
 
 <p align="center">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/Screenshot_20200616-214143_1.jpg" width="200" title="hover text">
 <img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/01telainicial.jpg" width="200" title="hover text">
 <img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/02teladetalhaproduto.jpg" width="200" title="hover text">
 <img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/03telapedidoproduto.jpg" width="200" title="hover text">
-<img src="https://https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/04telapedidoadicionado.jpg" width="200" title="hover text">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/04telapedidoadicionado.jpg" width="200" title="hover text">
 <img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/05telacarrinho.jpg" width="200" title="hover text">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/06telafinalizarvenda.jpg" width="200" title="hover text">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/07telaconferindopedido.jpg" width="200" title="hover text">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/08telapedidoefetuado.jpg" width="200" title="hover text">
+ 
  </p>
