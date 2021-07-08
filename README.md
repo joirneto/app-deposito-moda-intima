@@ -18,6 +18,10 @@ App de gestão estoque e vendas de produtos
     * A interface usuário-vendedor não possui acesso a edição ao banco de dados relacionados aos produtos(cadastramento, edição e exclusão) e acesso a informações de quantidades de produtos vendidos e margem de lucro.
    * Na versão [CLIENTE](https://github.com/joirneto/app-deposito-moda-intima/blob/main/apk/app-versao-cliente.apk): 
      * O usuário-cliente poderá realizar consultas ao Estoque de Produtos e Realizar seu pedido de compra.
+***
+  Deixei disponível o apk da versão cliente para instalação e utilização.
+***
+
 
 ## Construído com:
 
