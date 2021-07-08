@@ -29,3 +29,4 @@ App de gestão estoque e vendas de produtos
 ## app:
 
 <img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/01telainicial.jpg" width="200" title="hover text">
+<img src="https://github.com/joirneto/app-deposito-moda-intima/blob/main/Imagens%20descritivas%20do%20app/01telainicial.jpg" width="200" title="hover text">
