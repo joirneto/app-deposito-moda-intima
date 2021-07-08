@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context=".activity.MinhasComprasActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/idRecyclerMinhasCompras"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" />
+
+
+<ProgressBar
+    android:id="@+id/idprogressBarMinhasCompras"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="80dp"
+    android:layout_height="98dp"
+    android:layout_gravity="center"
+    android:visibility="visible" />
+
+    </FrameLayout>
+
+    <include
+
+        android:id="@+id/idBottomNavigationTabMinhasCompras"
+        layout="@layout/bottom_navigation_tabs_clientes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible" />
+
+
+
+</LinearLayout>
+

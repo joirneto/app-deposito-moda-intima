@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.RegistrarDadosClienteEntregaActivity">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/background_botao"
+        android:padding="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="DADOS CLIENTE"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24dp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="NOME: "
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="8dp"
+
+            android:layout_marginLeft="16dp" >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/idNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Digite seu nome"
+            android:background="@drawable/background_botao"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+            android:layout_marginRight="16dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CONTATO: "
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:layout_marginLeft="16dp" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/idContatoCliente"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@drawable/icon_whatzpp"
+            android:background="@drawable/background_botao"
+            android:hint="Digite seu telefone"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CIDADE : "
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:layout_marginLeft="16dp" >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/idCidadeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_botao"
+            android:hint="Digite sua Cidade"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ESTADO: "
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:layout_marginLeft="16dp" >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/idEstadoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_botao"
+            android:hint="Digite seu Estado"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/background_botao"
+        android:padding="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="20dp"
+        android:text="DADOS PARA ENTREGA DO PEDIDO"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/idEnderecoVendaRealizadaOBS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/background_botao"
+        android:gravity="start"
+        android:hint="Digite o endereço de entrega ou se vai retirar na loja."
+        android:inputType="textMultiLine|textPersonName"
+        android:maxLines="10"
+        android:minLines="1"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="179dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/idBotaoGravarEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:inputType="textPersonName"
+        android:onClick="gravarDados"
+        android:text="CONFIRMAR DADOS"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="594dp">
+
+    </Button>
+    <include
+
+        android:id="@+id/idBottomNavigationTabRegistrarDados"
+        layout="@layout/bottom_navigation_tabs_clientes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible" />
+
+</LinearLayout>
+

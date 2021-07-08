@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Deposito Moda Intima.iml" filepath="$PROJECT_DIR$/Deposito Moda Intima.iml" group="Deposito Moda Intima" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Deposito Moda Intima/app" />
+    </modules>
+  </component>
+</project>

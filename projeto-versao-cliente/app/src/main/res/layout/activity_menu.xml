@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MenuActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idContatosImportantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_info"
+        android:onClick="abrirContatosImportantes"
+        android:padding="8dp"
+        android:text="CONTATOS IMPORTANTES"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:includeFontPadding="false">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/idMensagemUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_mensagem"
+        android:onClick="abrirMensagensAoUsuario"
+        android:padding="8dp"
+        android:text="MENSAGENS AO USUÁRIO"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:includeFontPadding="false">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idInformacoesPagamento"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:drawableStart="@drawable/ic_deposito"
+        android:onClick="abrirInformacoesPagamento"
+        android:padding="8dp"
+        android:text="INFORMAÇÕES SOBRE O PAGAMENTO"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:includeFontPadding="false">    </TextView>
+
+
+    <TextView
+        android:id="@+id/idPoliticaPrivacidade"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:drawableStart="@drawable/ic_security"
+        android:onClick="abrirPoliticaPrivacidade"
+        android:padding="8dp"
+        android:text="POLÍTICA E PRIVACIDADE"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:includeFontPadding="false">
+
+    </TextView>
+
+</LinearLayout>
