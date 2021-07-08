@@ -4,7 +4,11 @@ App controle de estoque e vendas
  
 ## Início
 
-O app Depósito da Moda Íntima é um projeto desenvolvido a pedido do Depósito da Moda Íntima, que é uma loja de vendas Atacado e Varejo de moda íntima masculina, feminina, adulto e infantil, localizado no Buraco da Gia - Centro Comercial de Comerciantes Autônomos e Informais de Vendas de Roupas e Artigos diversos, no Centro de Fortaleza-CE.
+  O app Depósito da Moda Íntima é um projeto desenvolvido durante a pandemia COVID-19 com o objetivo de:
+  *
+  **
+  ***
+  a pedido do Depósito da Moda Íntima, que é uma loja de vendas Atacado e Varejo de moda íntima masculina, feminina, adulto e infantil, localizado no Buraco da Gia - Centro Comercial de Comerciantes Autônomos e Informais de Vendas de Roupas e Artigos diversos, no Centro de Fortaleza-CE.
 Antes da pandemia COVID-19, as vendas da loja eram realizadas 80% de modo presencial e 20% pelo app WhatsApp. Os registros das mesmas eram feitos em blocos de papéis avulsos. A loja também não dispõe de controle de estoque, nem físico e nem digital.
     Durante a pandemia e até a liberação das circulação da população, as vendas passaram a ser realizadas 100% pelo WhatsApp. Como o volume cresceu exponencialmente, as operações geraram  grande dificuldade, desgastes com clientes e perdas financeiras.
 Outra observação importante é que o proprietário e seus funcionários possuem formação limitada e pouca familiaridade com uso das tecnologias
