@@ -13,7 +13,7 @@ App de gestão estoque e vendas de produtos
   
   Aceitei o desafio, mesmo sem ter inicialmente a stack necessária e desenvolvi o APP DEPÓSITO DA MODA ÍNTIMA, em duas versões(Loja e Cliente). Um app que oferece o serviço de estoque (manutenção de produtos) e de gestão de vendas em duas versões, cliente e loja.
   
-  * Na versão [LOJA](https://github.com/joirneto/app-deposito-moda-intima/blob/main/apk/app-versao-loja.apk), temos duas interfaces. As interfaces estão ligadas às permissões e funcionalidades de Administrador e usuário-vendedor.
+  * Na versão LOJA, temos duas interfaces. As interfaces estão ligadas às permissões e funcionalidades de Administrador e usuário-vendedor.
     * A interface Administrador possui acesso a todas as funcionalidades do sistema.
     * A interface usuário-vendedor não possui acesso a edição ao banco de dados relacionados aos produtos(cadastramento, edição e exclusão) e acesso a informações de quantidades de produtos vendidos e margem de lucro.
    * Na versão [CLIENTE](https://github.com/joirneto/app-deposito-moda-intima/blob/main/apk/app-versao-cliente.apk): 
